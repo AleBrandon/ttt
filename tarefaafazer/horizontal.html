@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividades Diárias</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      justify-content: center; /* Centralizar horizontalmente */
+      align-items: flex-start;
+      background-image: url('renderizacao-3d-de-fundo-de-textura-hexagonal.jpg'); /* Substitua 'seu-plano-de-fundo.jpg' pelo URL da sua imagem de plano de fundo */
+      background-size: cover; /* Ajuste para caber totalmente no contêiner */
+      background-position: center;
+      background-attachment: fixed; /* Faz a imagem de fundo ficar fixa */
+    }
+    .links{
+      display: flex;
+      align-items: center;
+      justify-content: center; /* Centralizar horizontalmente */
+    
+    }
+    .links > a{
+      padding-right: 20px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap; /* Permitir que os retângulos se quebrem em várias linhas se necessário */
+      justify-content: center; /* Centralizar os retângulos horizontalmente */
+      align-items: flex-start; /* Alinhar os retângulos ao topo */
+      margin-top: 50px; /* Espaço superior */
+    }
+    .rectangle {
+      width: 30%; /* Largura dos retângulos */
+      max-width: 400px; /* Largura máxima */
+      height: auto; /* Altura automática */
+      background-size: cover;
+      background-position: center;
+      border: 2px solid black; /* Borda preta de 2px */
+      border-radius: 10px; /* Borda com cantos arredondados */
+      padding: 20px; /* Espaçamento interno */
+      box-sizing: border-box; /* Garante que a largura e a altura incluem a borda e o preenchimento */
+      text-align: center; /* Alinhamento do texto centralizado */
+      margin: 20px; /* Espaçamento entre os retângulos */
+      position: relative; /* Posicionamento relativo */
+      color: white; /* Cor do texto */
+    }
+    h2 {
+      font-size: 40px; /* Tamanho do título */
+    }
+    p {
+      font-size: 30px; /* Tamanho do parágrafo */
+    }
+    .checkbox-container {
+      position: absolute;
+      top: 10px; /* Distância do topo */
+      right: 10px; /* Distância da direita */
+    }
+    .checkbox-container input[type="checkbox"] {
+      transform: scale(6.5); /* Ajuste manual do tamanho da caixa de seleção */
+    }
+    .video-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%; /* Largura dos vídeos */
+      margin-top: 20px; /* Espaçamento superior */
+    }
+    iframe {
+      width: 100%; /* Largura dos vídeos */
+      max-width: 800px; /* Largura máxima dos vídeos */
+      height: 400px; /* Altura ajustável */
+      margin-bottom: 20px; /* Espaçamento entre os vídeos */
+    }
+  </style>
+</head>
+<body>
+  <div class="links" style="font-size: 100px; margin-bottom: 100px; margin-top: 50px;" >
+    <a href="index.html" style="color: aliceblue;">▆ </a>
+    <a href="vertical.html" style="color: aliceblue;">☰ </a>
+    <a href="horizontal.html" style="color: aliceblue;">|||</a>
+  </div>
+  <div class="container">
+    <!-- Retângulo 1 -->
+    <div class="rectangle" style="background-image: url('montanha2.jpg');">
+      <div class="checkbox-container">
+        <input type="checkbox">
+      </div>
+      <h2>Acordou? Bora Meditar!</h2>
+      <br>
+      <p>"Ao cuidar de si mesmo, você cuida dos outros. Ao cuidar dos outros, você cuida de si mesmo."</p>
+      <p>Buda</p>
+      <div class="video-container">
+        <iframe width="2279" height="934" src="https://www.youtube.com/embed/byVw_prb-WU" title="Jiddu Krishnamurti- A Morte do Passado" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/250782436&color=%232a63df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/nanohardstyle" title="NANO" target="_blank" style="color: #cccccc; text-decoration: none;">NANO</a> · <a href="https://soundcloud.com/nanohardstyle/nicheri-genadi-tkachenko-audio-change-by-geek" title="Nicheri - Genadi Tkachenko (Audio change by NANO)" target="_blank" style="color: #cccccc; text-decoration: none;">Nicheri - Genadi Tkachenko (Audio change by NANO)</a></div>      
+      </div>
+    </div>
+    
+    <!-- Retângulo 2 -->
+    <div class="rectangle" style="background-image: url('academia3.jpg');">
+      <div class="checkbox-container">
+        <input type="checkbox">
+      </div>
+      <h2>Academia</h2>
+      <br>
+      <p>"O corpo alcança o que a mente acredita."</p>
+      <div class="video-container">
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/343388733&color=%232a63df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/skrillex" title="Skrillex" target="_blank" style="color: #cccccc; text-decoration: none;">Skrillex</a> · <a href="https://soundcloud.com/skrillex/kendrick-lamar-humble-skrillex-remix" title="Kendrick Lamar - Humble (Skrillex Remix)" target="_blank" style="color: #cccccc; text-decoration: none;">Kendrick Lamar - Humble (Skrillex Remix)</a></div>
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1661785008&color=%232a63df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/distrouniverse" title="Distro Records" target="_blank" style="color: #cccccc; text-decoration: none;">Distro Records</a> · <a href="https://soundcloud.com/distrouniverse/monaco-westcoast-remix" title="Monaco - Westcoast Remix Ft. OTGFive x Eldahrado" target="_blank" style="color: #cccccc; text-decoration: none;">Monaco - Westcoast Remix Ft. OTGFive x Eldahrado</a></div>      
+      </div>
+       
+    </div>
+
+    <!-- Retângulo 3 -->
+    <div class="rectangle" style="background-image: url('livros2.jpg');">
+      <div class="checkbox-container">
+        <input type="checkbox">
+      </div>
+      <h2>Leitura/Momento relaxante</h2>
+      <br>
+      <p>"Um livro é um sonho que você segura em suas mãos." - Neil Gaiman</p>
+      <ul style="font-size: 26px;">
+        <li>Dhammapada: Os ensinamentos de Buda</li>
+      </ul>
+      <div class="video-container">
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/236765219&color=%232a63df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/relaxing-music-production" title="RELAXING MUSIC 😊 (Piano - Sleep - Study - Yoga)" target="_blank" style="color: #cccccc; text-decoration: none;">RELAXING MUSIC 😊 (Piano - Sleep - Study - Yoga)</a> · <a href="https://soundcloud.com/relaxing-music-production/sets/musica-clasica-para-dormir" title="Música Clásica para Dormir Bebés- Mozart para Bebés - Efecto Mozart - Música Larga Duración" target="_blank" style="color: #cccccc; text-decoration: none;">Música Clásica para Dormir Bebés- Mozart para Bebés - Efecto Mozart - Música Larga Duración</a></div>
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1447968694&color=%232a63df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/gada-do-fri-fairi" title="sêmen" target="_blank" style="color: #cccccc; text-decoration: none;">sêmen</a> · <a href="https://soundcloud.com/gada-do-fri-fairi/sets/m-sicas-para-leitura" title="músicas para leitura/estudar 📚" target="_blank" style="color: #cccccc; text-decoration: none;">músicas para leitura/estudar 📚</a></div>
+
+      </div>
+    </div>
+
+    <!-- Retângulo 4 -->
+    <div class="rectangle" style="background-image: url('alimentos.jpg');">
+      <div class="checkbox-container">
+        <input type="checkbox">
+      </div>
+      <h2>Alimentação</h2>
+      <br>
+      <p>"Uma alimentação equilibrada é essencial para manter uma vida saudável."</p>
+      
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uhRaL8akdQI?si=kwiZwBvbJeqB0sg5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/seOU3P-EOKY?si=vrj0K2xKc-aJO0_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- Retângulo 5 -->
+    <div class="rectangle" style="background-image: url('rodasdentadas.jpg');">
+      <div class="checkbox-container">
+        <input type="checkbox">
+      </div>
+      <h2>Aprendendo...</h2>
+      <br>
+      <p>"O verdadeiro poder da codificação não está em seu poder de escrever, mas em seu poder de reescrever." - Joseph Yoder</p>
+      </ul>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WIt8cNOMkwc?si=Iz12Bp_sydrwq-2K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eOR3XxnV5ww?si=CVMYZRvVPF8-rGVF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      </div>
+    </div>
+
+    <!-- Retângulo 6 -->
+    <div class="rectangle" style="background-image: url('casa3.jpg');">
+      <div class="checkbox-container">
+        <input type="checkbox">
+      </div>
+      <h2>Cuidar da casa</h2>
+      <br>
+      <p>"Uma casa bem cuidada é o reflexo do amor e dedicação de quem nela habita."</p>
+      <div class="video-container">
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/345582787&color=%232a63df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/masegomusic" title="Masego" target="_blank" style="color: #cccccc; text-decoration: none;"></a> · <a href="https://soundcloud.com/masegomusic/tadow-featuring-fkj" title="Tadow (Featuring FKJ)" target="_blank" style="color: #cccccc; text-decoration: none;"></a></div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Vn8phH0k5HI?si=ZFm-74WbW7uRpIri" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>

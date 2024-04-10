@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atividades Diárias</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      background-image: url("renderizacao-3d-de-fundo-de-textura-hexagonal.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+    .row {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .rectangle {
+      width: 30%;
+      height: 500px;
+      background-size: cover;
+      background-position: center;
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+      margin: 0 10px;
+      position: relative;
+      color: white;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 18px;
+    }
+    .video-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 50px;
+    }
+    iframe {
+      width: 45%;
+      height: 250px;
+    }
+    .checkbox-container {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    .checkbox-container input[type="checkbox"] {
+      transform: scale(6.5); /* Tamanho da caixa de seleção */
+    }
+  </style>
+</head>
+<body>
+  
+<div class="container">
+  <div class="links" style="font-size: 100px; margin-bottom: 100px;" >
+    <a href="index.html" style="color: aliceblue;">▆ </a>
+    <a href="vertical.html" style="color: aliceblue;">☰ </a>
+    <a href="horizontal.html" style="color: aliceblue;">|||</a>
+  </div>
+  <!-- Primeira linha -->
+  <div class="row">
+    <!-- Retângulo 1 -->
+    <div class="rectangle" style="background-image: url('montanha2.jpg')">
+      <div class="checkbox-container">
+        <input type="checkbox">
+      </div>
+      <h2>Acordou? Bora Meditar!</h2>
+      <p>"Ao cuidar de si mesmo, você cuida dos outros. Ao cuidar dos outros, você cuida de si mesmo." - Buda</p>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/byVw_prb-WU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/UfcAVejslrU?si=Eb5h8pCeEUgBUZSi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- Retângulo 2 -->
+    <div class="rectangle" style="background-image: url('academia3.jpg')">
+      <div class="checkbox-container">
+        <input type="checkbox">
+      </div>
+      <h2>Academia</h2>
+      <p>"O corpo alcança o que a mente acredita."</p>
+      <div class="video-container">
+        <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/343388733&color=%232a63df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" frameborder="no" allow="autoplay"></iframe>
+        <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1661785008&color=%232a63df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" frameborder="no" allow="autoplay"></iframe>
+      </div>
+    </div>
+
+    <!-- Retângulo 3 -->
+    <div class="rectangle" style="background-image: url('livros2.jpg')">
+      <div class="checkbox-container">
+        <input type="checkbox">
+      </div>
+      <h2>Livros</h2>
+      <p>"Um livro é um sonho que você segura em suas mãos." - Neil Gaiman</p>
+      <div class="video-container">
+        <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/236765219&color=%232a63df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" frameborder="no" allow="autoplay"></iframe>
+        <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1447968694&color=%232a63df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" frameborder="no" allow="autoplay"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Segunda linha -->
+  <div class="row">
+    <!-- Retângulo 4 -->
+    <div class="rectangle" style="background-image: url('salad-2756467_1280.jpg')">
+      <div class="checkbox-container">
+        <input type="checkbox">
+      </div>
+      <h2>Alimentação</h2>
+      <p>"Uma alimentação equilibrada é essencial para manter uma vida saudável." - Desconhecido</p>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uhRaL8akdQI?si=kwiZwBvbJeqB0sg5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/seOU3P-EOKY?si=vrj0K2xKc-aJO0_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- Retângulo 5 -->
+    <div class="rectangle" style="background-image: url('rodasdentadas.jpg')">
+      <div class="checkbox-container">
+        <input type="checkbox">
+      </div>
+      <h2>Aprendendo</h2>
+      <p>"O verdadeiro poder da codificação não está em seu poder de escrever, mas em seu poder de reescrever." - Joseph Yoder</p>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WIt8cNOMkwc?si=Iz12Bp_sydrwq-2K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eOR3XxnV5ww?si=CVMYZRvVPF8-rGVF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+      </div>
+    </div>
+
+    <!-- Retângulo 6 -->
+    <div class="rectangle" style="background-image: url('casa3.jpg')">
+      <div class="checkbox-container">
+        <input type="checkbox">
+      </div>
+      <h2>Cuidar da casa</h2>
+      <p>"Uma casa bem cuidada é o reflexo do amor e dedicação de quem nela habita."</p>
+      <div class="video-container">
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/345582787&color=%232a63df&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/masegomusic" title="Masego" target="_blank" style="color: #cccccc; text-decoration: none;"></a> · <a href="https://soundcloud.com/masegomusic/tadow-featuring-fkj" title="Tadow (Featuring FKJ)" target="_blank" style="color: #cccccc; text-decoration: none;"></a></div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Vn8phH0k5HI?si=ZFm-74WbW7uRpIri" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
